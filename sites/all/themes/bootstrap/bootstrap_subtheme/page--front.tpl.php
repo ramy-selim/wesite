@@ -26,11 +26,11 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home"><?php print t('Home');?></a></li>
-                    <li><a href="#features"><?php print t('Hvad');?></a></li>
-                    <li><a href="#describe"><?php print t('Hvorfor');?></a></li>
-                    <li><a href="#price"><?php print t('Hvordan');?></a></li>
-                    <li><a href="#service"><?php print t('Om Shopbox');?></a></li>
-                    <li><a href="#contact"><?php print t('Kontakt');?></a></li>
+                    <li><a href="#features"><?php print t('What');?></a></li>
+                    <li><a href="#describe"><?php print t('Why');?></a></li>
+                    <li><a href="#price"><?php print t('How');?></a></li>
+                    <li><a href="#service"><?php print t('About Shopbox');?></a></li>
+                    <li><a href="#contact"><?php print t('Contact');?></a></li>
                     <li><a href="https://shopbox.recruiterbox.com/" target="_blank"><?php print t('Jobs');?></a></li>
                 </ul>
             </div>  <!--end collapse -->
@@ -47,9 +47,9 @@
     <!-- <div id="surface"></div>-->
     <canvas id="canvas"></canvas>
     <!--Header text -->
-    <h1>én <strong>forretning</strong> én <strong>app</strong></h1>
-    <h3 style="font-weight: bold;">Giv os din mailadresse – så giver vi dig Shopbox Pro gratis i 30 dage</h3>
-    <h6 style="color: #fff;">(du kan også bare få vores gratis app)</h6>
+    <h1><?php print t('One <strong>business</strong> One <strong>app</strong>');?></h1>
+    <h3 style="font-weight: bold;"><?php print t('Subscribe to try ShopBox');?></h3>
+    <h6 style="color: #fff;"><?php print t('(you can also download our free app in the App Store)');?></h6>
     <div class=" home-subscribe center-block">
         <form id="request" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="/contact" method="POST">
 
@@ -68,13 +68,13 @@
                                 </div>
 
                                 <!--Header text -->
-                                <h1>én <strong>forretning</strong> én <strong>app</strong></h1>
+                                <h1><?php print t('One <strong>business</strong> one <strong>app</strong>');?></h1>
                                 <div class="row" style="color:white;margin-top:35px">
                                     <div class="col-lg-12" style="margin-bottom: 10px">
-                                        <h4>Spar tid og tjen mere&nbsp;&nbsp;-&nbsp;&nbsp; Administration gjort pærelet&nbsp;&nbsp;-&nbsp;&nbsp;Virker med dit økonomisystem</h4>
+                                        <h4><?php print t('Save time and earn more &nbsp; &nbsp; - &nbsp; &nbsp; Administration made easy as pie &nbsp; &nbsp; - &nbsp; &nbsp; Works with your ERP');?></h4>
                                     </div>
                                 </div>
-                                <h4 style="color:white;margin-top: 35px;">Få en mail når vi er live. Vi spammer ikke. </h4>
+                                <h4 style="color:white;margin-top: 35px;"><?php print t('Subscribe to try ShopBox  when we go Live.');?></h4>
                                 <div class=" home-subscribe center-block" style="margin-top: 15px;">
                                     <form id="request" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="/contact" method="POST">
 
@@ -83,7 +83,7 @@
                                         <h6 class="subscription-error"></h6>
                                         <input type="email" name="email" id="subscriber-email" placeholder="Din mailadresse" class="form-control subscribe-input input-lg">
                                         <!-- SUBSCRIBE BUTTON -->
-                                        <button type="submit" id="subscribe-button" class="btn btn-primary btn-lg" data-loading-text="Sender...">Send</button>
+                                        <button type="submit" id="subscribe-button" class="btn btn-primary btn-lg" data-loading-text="Sender..."><?php print t('Send');?></button>
 
                                     </form>
                                 </div>
@@ -117,8 +117,8 @@
 
             <!--  Heading-->
             <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                <div class="title text-center"><h1>Hele din forretning samlet i én app</h1></div>
-                <div class="subtitle text-center "><h5>Vi har kodet i 20.000 timer så du ikke skal gøre det. </h5></div>
+                <div class="title text-center"><h1><?php print t('Your entire business in one app');?></h1></div>
+                <div class="subtitle text-center "><h5><?php print t('We have programmed 20,000+ hours of code so you don’t have to.    ');?></h5></div>
                 <div class="separator text-center"></div>
             </div>
             <div class="features">
@@ -130,9 +130,9 @@
                         <div class="icon-container hidden-sm"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/icons/kunder.png" alt="Kunder" class="features-icon" /></div>
 
                         <div class="text-right">
-                            <h4 class="main-color">Kunder</h4>
+                            <h4 class="main-color"><?php print t('Costumers');?></h4>
                             <p>
-                                Hvem er dine bedste kunder? Lav din egen kundeklub. Få kunderne tilbage i butikken
+                                <?php print t('Who are your best customers? Make your own customer club. Get customers back into the store.');?>
                             </p>
                         </div>
 
@@ -145,9 +145,9 @@
                         <div class="icon-container hidden-sm"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/icons/økonomi.png" alt="økonomi" class="features-icon" /></div>
 
                         <div class="text-right">
-                            <h4 class="main-color">Økonomi </h4>
+                            <h4 class="main-color"><?php print t('Economy');?></h4>
                             <p>
-                                Se dine omsætningtal, scan dine bilag og send det hele til din revisor. Spar tid og penge.
+                                <?php print t('Who are your best customers? Make your own customer club. Get customers back into the store.');?>
                             </p>
                         </div>
 
@@ -163,9 +163,9 @@
 
                         <!-- FEATURE HEADING AND DESCRIPTION -->
                         <div class="text-right">
-                            <h4 class="main-color">Rapporter</h4>
+                            <h4 class="main-color"><?php print t('Reports');?></h4>
                             <p>
-                                Få månedlige, ugentlige og daglige rapporter som du kan læse selv eller sende til din revisor.
+                                <?php print t('Get monthly, weekly and daily reports which you can read yourself or send to your accountant.');?>
                             </p>
                         </div>
 
@@ -194,9 +194,9 @@
 
 
                         <div class="fetaure-right">
-                            <h4 class="main-color">Kasse</h4>
+                            <h4 class="main-color"><?php print t('Counter');?></h4>
                             <p>
-                                Opret produkter, registrer betalinger, opret faktura, lav gavekort og udskriv kvitteringer.
+                                <?php print t('Create your products,  receive payments or create an invoice, view live sales data, redeem gift cards and print receipts.');?>
                             </p>
                         </div>
 
@@ -209,9 +209,9 @@
                         <div class="icon-container hidden-sm"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/icons/medarbejdere.png" alt="Medarbejdere" class="features-icon" /></div>
 
                         <div class="fetaure-right">
-                            <h4 class="main-color">Medarbejdere</h4>
+                            <h4 class="main-color"><?php print t('Staff');?></h4>
                             <p>
-                                Opret dine medarbejdere og giv dem rettigheder. Registrer salg og aktiviteter per medarbejder.
+                                <?php print t('Set up your employees and give them rights. View sales and activities per employee.');?>
                             </p>
                         </div>
 
@@ -225,9 +225,9 @@
                         </div>
 
                         <div class="fetaure-right">
-                            <h4 class="main-color">Kvitteringer</h4>
+                            <h4 class="main-color"><?php print t('Receipts');?></h4>
                             <p>
-                                Scan og gem kvitteringer så du får et fuldstændigt overblik over din økonomi uanset hvor i verden du er.
+                                <?php print t('Scan and save your receipts so you get a complete overview of your finances wherever you are.');?>
                             </p>
                         </div>
                     </div><!-- end Single Feature item -->
@@ -244,7 +244,7 @@
         <div class="row">
             <!--  Heading-->
             <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                <div class="title text-center"><h1>Man taler også om os i medierne</h1></div>
+                <div class="title text-center"><h1><?php print t('The talk about us in the media');?></h1></div>
                 <div class="separator text-center"></div>
             </div>
             <div class="col-lg-3 text-center">
@@ -275,14 +275,14 @@
                     <div class="testimonial-item2 wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
                         <div class="testimonial-msg">
                             <i class="fa fa-quote-left"></i>
-                            Jeg har fået en helt anden oplevelse af hvad et kasseapparat kan bruges til
+                            <?php print t('Shopbox has redefined my view on what a Cash Register could do');?>
                             <i class="fa fa-quote-right pull-right"></i>
                         </div>
                         <div class="white-separator"></div>
 
                         <!--  INFORMATION -->
-                        <div class="testimonial-name">Stine Høyer Rasmussen</div>
-                        <div class="testimonial-info">Owner, SecondStore, Vintage Clothing</div>
+                        <div class="testimonial-name"><?php print t('Stine Høyer Rasmussen');?></div>
+                        <div class="testimonial-info"><?php print t('Owner, SecondStore, Vintage Clothing');?></div>
                     </div>
 
                 </div>
@@ -300,14 +300,14 @@
 
                 <!--  Heading-->
                 <div class="heading black-text wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                    <div class="title-half"><h1>Styr på tingene</h1></div>
-                    <div class="subtitle-half"><h5>og mere overskud til din forretning</h5></div>
+                    <div class="title-half"><h1><?php print t('More control');?></h1></div>
+                    <div class="subtitle-half"><h5><?php print t('and more profits for your business');?></h5></div>
                     <div class="separator-left"></div>
                 </div>
 
                 <div class="describe-details wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
                     <p>
-                        Uanset om du sælger kaffe, mad, cykler, bøger eller en ny frisure har du brug for en enkel løsning til at administrere din forretning. Vi har gjort Shopbox så enkel at den virker for de fleste erhvervsdrivende. Let at sætte op. Let at administrere. Og så virker det både online og offline.
+                        <?php print t('You need a simple solution to manage your business whether you sell coffee, food, bicycles, books or a new hairstyle. Shopbox was done with simplicity in mind and works with most businesses. Easy to set up. Easy to manage. And it works both online and offline.');?>
                     </p>
                 </div>
 
@@ -429,23 +429,23 @@
 
                 <!-- funfact -->
                 <div class="heading white-text wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                    <div class="title text-center"><h1>Facts om Shopbox</h1></div>
-                    <div class="subtitle text-center "><h5>Dette vidste du måske ikke om os</h5></div>
+                    <div class="title text-center"><h1><?php print t('Facts about Shopbox');?></h1></div>
+                    <div class="subtitle text-center "><h5><?php print t('A few things you might not know about us');?></h5></div>
                     <div class="separator text-center"></div>
                 </div>
 
                 <div class="funfacts-counter2 white-text">
                     <div class="col-sm-4">
                         <div class="statistic-counter">15</div>
-                        <div class="statistic-text">Geeks</div>
+                        <div class="statistic-text"><?php print t('Geeks');?></div>
                     </div>
                     <div class="col-sm-4">
                         <div class="statistic-counter">3</div>
-                        <div class="statistic-text">År gammelt</div>
+                        <div class="statistic-text"><?php print t('years old');?></div>
                     </div>
                     <div class="col-sm-4">
                         <div class="statistic-counter">100</div>
-                        <div class="statistic-text">% kundefokuseret</div>
+                        <div class="statistic-text"><?php print t('% customer-focused');?></div>
                     </div>
 
 
@@ -467,8 +467,8 @@
 
             <!--  Heading-->
             <div class="heading wow fadeIn animated animated" data-wow-offset="120" data-wow-duration="1.5s" style="visibility: visible; -webkit-animation-duration: 1.5s;">
-                <div class="title text-center"><h1>Size matters</h1></div>
-                <div class="subtitle text-center "><h5>...fra gratis til rimeligt</h5></div>
+                <div class="title text-center"><h1><?php print t('Size matters');?></h1></div>
+                <div class="subtitle text-center "><h5><?php print t('...from Free to Fair');?></h5></div>
                 <div class="separator text-center"></div>
             </div>
 
@@ -479,19 +479,19 @@
                             Free
                         </li>
                         <li class="plan-price">
-                            <strong>100</strong> transaktioner per måned
+                            <strong>100</strong> <?php print t('transactions per month');?>
                         </li>
                         <li>
-                            <strong>1</strong> medarbejder
+                            <strong>1</strong> <?php print t('staff');?>
                         </li>
                         <li>
-                            <strong>Shopbox branded</strong>
+                            <strong><?php print t('Shopbox-branded');?></strong>
                         </li>
                         <li>
-                            <strong>Mail</strong> support
+                            <strong><?php print t('Mail support');?></strong>
                         </li>
                         <li class="plan-action">
-                            <strong style="font-size: 35px;">Gratis</strong>
+                            <strong style="font-size: 35px;"><?php print t('Free');?></strong>
                         </li>
                     </ul>
                 </div>
@@ -502,19 +502,19 @@
                             Pro
                         </li>
                         <li class="plan-price">
-                            <strong>10.000</strong> transaktioner per måned
+                            <strong>10.000</strong> <?php print t('transactions per month');?>
                         </li>
                         <li>
-                            <strong>10</strong> medarbejdere
+                            <strong>10</strong> <?php print t('staff');?>
                         </li>
                         <li>
-                            <strong>Dit brand</strong>
+                            <strong><?php print t('Your Brand');?></strong>
                         </li>
                         <li>
-                            <strong>Hotline 9 – 16</strong> support
+                            <?php print t('<strong>Hotline 9 – 16</strong> support');?>
                         </li>
                         <li class="plan-action">
-                            <strong style="font-size: 35px;">399 kr.</strong>
+                            <strong style="font-size: 35px;"><?php print t('399 kr.');?></strong>
                         </li>
                     </ul>
                 </div>
@@ -525,19 +525,19 @@
                             Mighty
                         </li>
                         <li class="plan-price">
-                            <strong>Ubegrænset</strong> transaktioner
+                            <?php print t('<strong>Unlimited</strong> transactions');?>
                         </li>
                         <li>
-                            <strong>Ubegrænset</strong> medarbejdere
+                            <?php print t('<strong>Unlimited</strong> transactions');?>
                         </li>
                         <li>
-                            <strong>Dit brand</strong>
+                            <?php print t('<strong>Your Bran</strong>');?>
                         </li>
                         <li>
-                            <strong>Hotline 24/7</strong> support
+                            <?php print t('<strong>Hotline 24/7</strong> support');?>
                         </li>
                         <li class="plan-action">
-                            <strong style="font-size: 35px;">999 kr.</strong>
+                         <strong style="font-size: 35px;">   <?php print t('999 kr.');?></strong>
                         </li>
                     </ul>
                 </div>
@@ -555,9 +555,9 @@
             <div class="col-sm-4 clearfix">
                 <div class="feature text-center  wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
                     <i class="fa fa-info"></i>
-                    <h4 class="text-white">Hvad er Shopbox?</h4>
+                    <h4 class="text-white"><?php print t('What is Shopbox?');?></h4>
                     <p class="text-white">
-                        Shopbox samler hele din forretning i en simpel mobil App. Shopbox har en kasse (POS), en kundeklub og en simpel økonomi og personale funktion. Og du kan få den gratis på din App store. Du har én forretning – hvorfor ikke bare have én app?
+                        <?php print t('Shopbox provides all the tools you need to manage your business in a simple mobile and web App. Shopbox includes a POS, customer club and simple economy and staff function. And you can download the app directly from the App store. You have one business - why not just have one app?');?>
                     </p>
                 </div><!--end feature-->
             </div>
@@ -565,9 +565,9 @@
             <div class="col-sm-4 clearfix">
                 <div class="feature text-center  wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
                     <i class="fa fa-heart"></i>
-                    <h4 class="text-white">Hvad vi tror på</h4>
+                    <h4 class="text-white"><?php print t('What we believe in');?></h4>
                     <p class="text-white">
-                        Vi tror på ubegrænsede muligheder, super kundeservice og enkle løsninger. Dog vigtigst af alt tror vi på at gode ting sker med kreative og ambitiøse kollegaer. Vi er ikke her for at gøre tingene bedre. Vi er her for at skabe nye standarder.
+                        <?php print t('We believe that there are unlimited opportunities for our success. We believe in good customer service and great products. However, most importantly, we believe in hiring creative, entrepreneurial and ambitious people to help us. Not just to make things better, but to rethink business administration.');?>
                     </p>
                 </div><!--end feature-->
             </div>
@@ -575,9 +575,9 @@
             <div class="col-sm-4 clearfix">
                 <div class="feature text-center  wow fadeInRight animated" data-wow-offset="120" data-wow-duration="1.5s">
                     <i class="fa fa-users"></i>
-                    <h4 class="text-white">Bliv partner</h4>
+                    <h4 class="text-white"><?php print t('Become an Affiliate');?></h4>
                     <p class="text-white">
-                        Hvis du har et netværk af butikker eller adgang til mange mindre virksomheder, kan vi skabe noget sammen. Vi distribuerer gennem banker, ISP’er, brancheorganisationer, og software udbydere.. Hvis du vil høre mere om vores partner program så klik <a href="mailto:cz@shopbox.com">her</a>
+                        <?php print t('If you have a huge number of friends, who primarily are shop owners or just access to many small businesses, perhaps we can be partners. We work with banks, ISPs, industry organizations and software vendors. You know your customers better than we do.');?> <a href="mailto:cz@shopbox.com"><?php print t('Email us to learn more.');?></a>
                     </p>
                 </div><!--end feature-->
             </div>
@@ -624,8 +624,8 @@
 
         <!-- Team Heading-->
         <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-            <div class="title text-center"><h1>Management</h1></div>
-            <div class="subtitle text-center "><h5>Vi er spiller også bordtennis</h5></div>
+            <div class="title text-center"><h1><?php print t('Management');?></h1></div>
+            <div class="subtitle text-center "><h5><?php print t('We are good at table tennis.');?></h5></div>
             <div class="separator text-center"></div>
         </div>
 
@@ -688,9 +688,9 @@
             <div class="container">
                 <div class="row">
                     <div class="heading white-text wow fadeIn animated animated" data-wow-offset="120" data-wow-duration="1.5s" style="visibility: visible; -webkit-animation-duration: 1.5s;">
-                        <div class="title text-center"><h1>Giv os din mailadresse</h1></div>
-                        <div class="title text-center"><h1>Så giver vi dig Shopbox Pro gratis i 30 dage</h1></div>
-                        <div class="subtitle text-center "><h5>(du kan også bare få vores gratis app)</h5></div>
+                        <div class="title text-center"><h1><?php print t('Subscribe to try ShopBox  when we go Live');?></h1></div>
+                        <div class="title text-center"><h1><?php print t('and we will give you shopbox for Free during the first 30 days');?></h1></div>
+                        <div class="subtitle text-center "><h5><?php print t('(you can also download our free app in the App Store)');?></h5></div>
                         <div class="separator text-center"></div>
                     </div>
                     <div class="col-sm-10 col-sm-offset-1">
@@ -700,9 +700,9 @@
                                 <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
                                 <h6 class="subscription-success"></h6>
                                 <h6 class="subscription-error"></h6>
-                                <input type="email" name="email" id="subscriber-email1" placeholder="Din mailadresse" class="form-control subscribe-input input-lg">
+                                <input type="email" name="email" id="subscriber-email1" placeholder="<?php t('Your Email address');?>" class="form-control subscribe-input input-lg">
                                 <!-- SUBSCRIBE BUTTON -->
-                                <button id="subscribe-button2" class="btn btn-primary btn-lg" type="submit" data-loading-text="Sender...">Send</button>
+                                <button id="subscribe-button2" class="btn btn-primary btn-lg" type="submit" data-loading-text="Sender..."><?php print t('Send');?></button>
 
                             </form>
                         </div>
@@ -723,8 +723,8 @@
         <div class="row contact-2">
 
             <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                <div class="title text-center"><h1>Kontakt os</h1></div>
-                <div class="subtitle text-center "><h5>Vi vil så gerne høre fra dig</h5></div>
+                <div class="title text-center"><h1><?php print t('Contact us');?></h1></div>
+                <div class="subtitle text-center "><h5><?php print t('We are looking forward to hearing from you');?></h5></div>
                 <div class="separator text-center"></div>
             </div>
 
@@ -760,15 +760,15 @@
                         <fieldset>
                             <div class="form-group">
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control " name="name" id="name" placeholder="Navn">
+                                    <input type="text" class="form-control " name="name" id="name" placeholder="<?php print t('Name');?>">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text"  class="form-control " name="email" id="email" placeholder="Email">
+                                    <input type="text"  class="form-control " name="email" id="email" placeholder="<?php print t('Email');?>">
                                 </div>
                                 <div class="col-md-12">
-                                    <input class="form-control " id="subject" type="text" name="subject" placeholder="Emne">
-                                    <textarea class="form-control " id="msg" rows="5" placeholder="Besked"></textarea>
-                                    <button class="btn btn-primary btn-lg" type="submit" id="submit" name="submit"  data-loading-text="Loading..."><i class="fa fa-send"></i> Send besked</button>
+                                    <input class="form-control " id="subject" type="text" name="subject" placeholder="<?php print t('Subject');?>">
+                                    <textarea class="form-control " id="msg" rows="5" placeholder="<?php print t('Message');?>"></textarea>
+                                    <button class="btn btn-primary btn-lg" type="submit" id="submit" name="submit"  data-loading-text="Loading..."><i class="fa fa-send"></i><?php print t('Send');?></button>
                                 </div>
                             </div>
                         </fieldset>
