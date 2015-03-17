@@ -1,0 +1,264 @@
+
+/*
+
+    Author     : XpeedStudio
+    Color      : Green
+    Color Code : #62BB46
+*/
+
+
+.colorstext {
+    color: #62BB46;
+}
+
+.colorsbg{
+    background: #62BB46 ! important;
+}
+
+.navigation nav ul li .sub-nav li a:hover {
+    color: #62BB46; //need to be add in color css
+}
+
+#carousel-slider .carousel-control i:hover{
+    background: #62BB46;
+}
+
+.separator{
+    background: #62BB46;
+}
+
+.separator-left{
+    background: #62BB46;
+}
+
+.separator-min-height {
+    background: #62BB46;
+}
+
+.btn-primary {
+    background-color: #62BB46;
+    border-color: #62BB46;
+}
+.btn-primary:hover{
+    color: #62BB46;
+    border-color: #62BB46;
+}
+
+.btn-default:hover {
+    color: #62BB46;
+    background-color: #FFFFFF;
+}
+
+.nav-light.custom-nav .navbar-nav>.active>a,
+.nav-light.custom-nav .navbar-nav>.active>a:hover,
+.nav-light.custom-nav .navbar-nav>.active>a:focus{
+    color:#62BB46;
+}
+
+.nav-light.scroll-nav  .navbar-nav>li>a:hover,
+.nav-light.scroll-nav  .navbar-nav>li>a:focus,
+.nav-light.custom-nav .navbar-nav>li>a:hover,
+.nav-light.custom-nav .navbar-nav>li>a:focus{
+    color:#62BB46;
+}
+
+.nav-light.scroll-nav .navbar-nav>.active>a,
+.nav-light.scroll-nav .navbar-nav>.active>a:hover,
+.nav-light.scroll-nav .navbar-nav>.active>a:focus{
+    color:#62BB46;
+}
+
+.nav-dark.custom-nav .navbar-nav>.active>a,
+.nav-dark.custom-nav .navbar-nav>.active>a:hover,
+.nav-dark.custom-nav .navbar-nav>.active>a:focus,
+.nav-dark.scroll-nav .navbar-nav>.active>a,
+.nav-dark.scroll-nav .navbar-nav>.active>a:hover,
+.nav-light.scroll-nav .navbar-nav>.active>a:focus{
+    color:#62BB46;
+}
+.nav-dark.custom-nav .navbar-nav>li>a:hover,
+.nav-dark.custom-nav .navbar-nav>li>a:focus,
+.nav-dark.scroll-nav  .navbar-nav>li>a:hover,
+.nav-dark.scroll-nav  .navbar-nav>li>a:focus{
+    color:#62BB46;
+}
+
+.hide-nav-light.navbar .navbar-nav>.active>a,
+.hide-nav-light.navbar .navbar-nav>.active>a:hover,
+.hide-nav-light.navbar .navbar-nav>.active>a:focus,
+.hide-nav-light.navbar .navbar-nav>li>a:hover,
+.hide-nav-light.navbar  .navbar-nav>li>a:focus{
+    color:#62BB46;
+}
+
+.hide-nav-dark.navbar .navbar-nav>.active>a,
+.hide-nav-dark.navbar .navbar-nav>.active>a:hover,
+.hide-nav-dark.navbar .navbar-nav>.active>a:focus,
+.hide-nav-dark.navbar .navbar-nav>li>a:hover,
+.hide-nav-dark.navbar  .navbar-nav>li>a:focus{
+    color:#62BB46;
+}
+.fixed-nav.navbar .navbar-nav>.active>a,
+.fixed-nav.navbar .navbar-nav>.active>a:hover,
+.fixed-nav.navbar .navbar-nav>.active>a:focus,
+.fixed-nav.navbar .navbar-nav>li>a:hover,
+.fixed-nav.navbar  .navbar-nav>li>a:focus{
+    color:#62BB46;
+}
+
+.fixed-nav-dark.navbar .navbar-nav>.active>a,
+.fixed-nav-dark.navbar .navbar-nav>.active>a:hover,
+.fixed-nav-dark.navbar .navbar-nav>.active>a:focus,
+.fixed-nav-dark.navbar .navbar-nav>li>a:hover,
+.fixed-nav-dark.navbar  .navbar-nav>li>a:focus{
+    color:#62BB46;
+}
+
+.download-btn:hover {
+    background: rgba(255, 255, 255, 0.95);
+    color: #62BB46 !important;
+}
+
+
+.home-intro-half-try  p i{
+    background: #62BB46;
+
+}
+.home-social  .list-inline a:hover{
+    color: #62BB46;
+
+}
+.home-intro-2nd-half-try .try-registration-form input{
+    border-left: 3px solid #62BB46;
+}
+.home-intro-2nd-half-try .try-registration-form input:focus{
+    border:1px solid  #62BB46;
+    border-left: 3px solid #62BB46;
+}
+.home-intro-2nd-half-try .try-registration-form textarea{
+    border-left: 3px solid #62BB46;
+}
+
+.home-intro-2nd-half-try .try-registration-form textarea:focus{
+    border:1px solid  #62BB46;
+    border-left: 3px solid #62BB46;
+}
+
+.service span i {
+    color: #62BB46;
+}
+.service:hover span {
+    background: #62BB46;
+}
+
+.feature i{
+    color: #62BB46;
+}
+
+img.features-icon{
+    padding:2px;
+    border-radius: 5px;
+}
+.feature-icon i,.feature-icon img{
+    color: #62BB46;
+}
+
+.feature-icon2 i,.feature-icon2 img{
+    background: #62BB46;
+}
+.feature-item:hover .feature-icon2 i{
+    color: #62BB46;
+    border: 2px solid #62BB46;
+
+}
+.features .feature-items .icon-container i,.features .feature-items .icon-container img{
+
+    background: #62BB46;
+    box-shadow: 0 0 0 3px #62BB46;
+}
+.features .feature-items:hover .icon-container i{
+    border: 1px solid #62BB46;
+    background: #62BB46;
+}
+
+.event-info i{
+    color: #62BB46;
+}
+
+.event-info-2 i{
+    color: #62BB46;
+
+}
+
+.events-schedule .event-title{
+    color: #62BB46;
+}
+
+.buy-form .form-control {
+    border-left: 3px solid #62BB46;
+
+}
+
+.panel-default>.panel-heading {
+    background: #62BB46;
+
+}
+.describe-panel .panel-default>.panel-heading .indicator {
+    color: #62BB46;
+}
+
+.describe-list li i {
+    color: #62BB46;
+}
+
+.faqs2.faqs .panel .panel-heading {
+    background: #62BB46;
+}
+
+.subscribe-form3 i {
+    color: #62BB46;
+}
+
+.subscribe-form2{
+    background: #62BB46 ! important;
+}
+
+.price-1 .plan {
+    border: 1px solid #62BB46;
+}
+
+.price-1 .plan .title {
+    color: #62BB46;
+}
+
+.price-1 .plan .description {
+    border-top: 1px solid #62BB46;
+}
+
+.price-2 .plan li.plan-name {
+    background: #62BB46;
+}
+.price-2  .plan li > strong {
+    color: #62BB46;
+
+}
+.pricing2 .top {
+    background: #62BB46;
+}
+
+.pricing2 .bottom ul li > span {
+    color: #62BB46;
+}
+.team-member h5 {
+    color: #62BB46;
+}
+
+.contact-4 i{
+    color: #62BB46;
+}
+
+.footer-1 a span:hover,
+.footer-1-light a span:hover {
+    color: #62BB46;
+}
+
