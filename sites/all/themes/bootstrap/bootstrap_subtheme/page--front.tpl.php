@@ -698,7 +698,7 @@
                     </div>
                     <div class="col-sm-10 col-sm-offset-1">
                         <div class="subscribtion-form center-block wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <form id="request2" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="/contact" method="POST">
+                            <form id="request2" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="https://shopbox.com/contact" method="POST">
 
                                 <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
                                 <h6 class="subscription-success"></h6>
@@ -759,7 +759,7 @@
 
 
                     <div id="message"></div>
-                    <form method="post" action="/contact" name="contactform" id="contactform">
+                    <form method="post" action="https://shopbox.com/contact" name="contactform" id="contactform">
                         <fieldset>
                             <div class="form-group">
                                 <div class="col-md-6">

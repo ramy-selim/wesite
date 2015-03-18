@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
                 name: jQuery('#name').val(),
                 email: jQuery('#email').val(),
                 subject: jQuery('#subject').val(),
-                message: jQuery('#msg').val(),
+                message: jQuery('#msg').val()
             },
                     function(data) {
                         data = jQuery.parseJSON(data);
