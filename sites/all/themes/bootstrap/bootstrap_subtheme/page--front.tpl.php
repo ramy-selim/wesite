@@ -528,10 +528,10 @@
                             <?php print t('<strong>Unlimited</strong> transactions');?>
                         </li>
                         <li>
-                            <?php print t('<strong>Unlimited</strong> transactions');?>
+                            <?php print t('<strong>Unlimited</strong> staff');?>
                         </li>
                         <li>
-                            <?php print t('<strong>Your Bran</strong>');?>
+                            <?php print t('<strong>Your Brand</strong>');?>
                         </li>
                         <li>
                             <?php print t('<strong>Hotline 24/7</strong> support');?>
