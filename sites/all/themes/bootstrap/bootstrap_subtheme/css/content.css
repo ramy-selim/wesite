@@ -2845,6 +2845,9 @@ p:last-child {
 section:nth-of-type(odd) {
   background-color: #F9F9F9;
 }
+section:nth-of-type(even) {
+  background-color: #FFFFFF;
+}
 section .title h1 {
   font-size: 2.5rem;
   line-height: 3rem;
@@ -5300,4 +5303,11 @@ img.features-icon {
 .footer-1 a span:hover,
 .footer-1-light a span:hover {
   color: #62BB46;
+}
+.lang {
+  text-align: right;
+  padding: 10px;
+}
+.lang img {
+  width: 50px;
 }

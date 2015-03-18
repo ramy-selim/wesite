@@ -19,7 +19,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a href="#" class="navbar-brand top-logo"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/SB/logodark.png" alt="logo" /></a>
+                <a href="#" class="navbar-brand top-logo"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/logodark.png" alt="logo" /></a>
             </div>  <!--end navbar-header -->
 
             <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -56,7 +56,10 @@
             <!-- for canvas use class overlay to canvas-overlay-->
             <!-- for surface use class overlay to surface-overlay-->
             <div class="canvas-overlay">
-
+                <div class="lang">
+                    <a href="<?php print  base_path();?>"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/en.png" alt=""></a>
+                    <a href="<?php print  base_path().'da';?>"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/dk.png" alt=""></a>
+                </div>
                 <div class="container">
                     <div class="row">
 
@@ -64,7 +67,7 @@
                             <div class="home-intro-block logo-intro">
                                 <!--Header logo-->
                                 <div class="body-logo">
-                                    <img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/SB/logo.png" alt="">
+                                    <img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/logo.png" alt="">
                                 </div>
 
                                 <!--Header text -->
@@ -127,7 +130,7 @@
                     <!-- FEATURE -->
                     <div class="feature-items">
                         <!-- ICON -->
-                        <div class="icon-container hidden-sm"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/icons/kunder.png" alt="Kunder" class="features-icon" /></div>
+                        <div class="icon-container hidden-sm"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/icons/kunder.png" alt="Kunder" class="features-icon" /></div>
 
                         <div class="text-right">
                             <h4 class="main-color"><?php print t('Costumers');?></h4>
@@ -142,7 +145,7 @@
                     <!-- FEATURE -->
                     <div class="feature-items">
                         <!-- ICON -->
-                        <div class="icon-container hidden-sm"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/icons/økonomi.png" alt="økonomi" class="features-icon" /></div>
+                        <div class="icon-container hidden-sm"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/icons/økonomi.png" alt="økonomi" class="features-icon" /></div>
 
                         <div class="text-right">
                             <h4 class="main-color"><?php print t('Economy');?></h4>
@@ -158,7 +161,7 @@
                     <div class="feature-items">
 
                         <!-- ICON -->
-                        <div class="icon-container hidden-sm"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/icons/rapporter.png" alt="Rapporter" class="features-icon" /></div>
+                        <div class="icon-container hidden-sm"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/icons/rapporter.png" alt="Rapporter" class="features-icon" /></div>
 
 
                         <!-- FEATURE HEADING AND DESCRIPTION -->
@@ -179,7 +182,7 @@
                 <!-- PHONE IMAGE -->
                 <div class="col-sm-4">
                     <div class="wow bounceInUp animated animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/SB/mobile.png" alt="App Feature Image">
+                        <img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/mobile.png" alt="App Feature Image">
                     </div>
                 </div>
 
@@ -190,7 +193,7 @@
                     <div class="feature-items">
 
                         <!-- ICON -->
-                        <div class="icon-container hidden-sm"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/icons/kasse.png" alt="Kasse" class="features-icon" /></div>
+                        <div class="icon-container hidden-sm"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/icons/kasse.png" alt="Kasse" class="features-icon" /></div>
 
 
                         <div class="fetaure-right">
@@ -206,7 +209,7 @@
                     <!-- FEATURE -->
                     <div class="feature-items">
                         <!-- ICON -->
-                        <div class="icon-container hidden-sm"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/icons/medarbejdere.png" alt="Medarbejdere" class="features-icon" /></div>
+                        <div class="icon-container hidden-sm"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/icons/medarbejdere.png" alt="Medarbejdere" class="features-icon" /></div>
 
                         <div class="fetaure-right">
                             <h4 class="main-color"><?php print t('Staff');?></h4>
@@ -221,7 +224,7 @@
                     <!-- FEATURE -->
                     <div class="feature-items">
                         <!-- ICON -->
-                        <div class="icon-container hidden-sm"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/icons/kvitteringer.png" alt="Kvitteringer" class="features-icon"/>
+                        <div class="icon-container hidden-sm"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/icons/kvitteringer.png" alt="Kvitteringer" class="features-icon"/>
                         </div>
 
                         <div class="fetaure-right">
@@ -248,16 +251,16 @@
                 <div class="separator text-center"></div>
             </div>
             <div class="col-lg-3 text-center">
-                <a href="http://www.business.dk/vaekst/ivaeksaetter-vil-vaere-de-smaa-butikkers-nye-bedste-ven" target="_blank"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/images/feature/berlingske.png" style="max-width:200px" /></a>
+                <a href="http://www.business.dk/vaekst/ivaeksaetter-vil-vaere-de-smaa-butikkers-nye-bedste-ven" target="_blank"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/feature/berlingske.png" style="max-width:200px" /></a>
             </div>
             <div class="col-lg-3 text-center">
-                <a href="http://www.radio24syv.dk/programmer/elektronista/10873222/148-nu-skal-du-shoppe-med-mobilen/" target="_blank"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/images/feature/r24.png"  style="max-width:200px" /></a>
+                <a href="http://www.radio24syv.dk/programmer/elektronista/10873222/148-nu-skal-du-shoppe-med-mobilen/" target="_blank"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/feature/r24.png"  style="max-width:200px" /></a>
             </div>
             <div class="col-lg-3 text-center">
-                <a href="http://trendsonline.dk/2015/02/12/shopbox-vil-forsimple-butikkers-administration-og-vaere-verdens-bedste-til-det/" target="_blank"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/images/feature/trends.png"  style="max-width:200px" /></a>
+                <a href="http://trendsonline.dk/2015/02/12/shopbox-vil-forsimple-butikkers-administration-og-vaere-verdens-bedste-til-det/" target="_blank"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/feature/trends.png"  style="max-width:200px" /></a>
             </div>
             <div class="col-lg-3 text-center">
-                <a href="http://detailfolk.dk/detailnyheder/ny_app_vil_gre_livet_lettere_for_sm_butikker.html" target="_blank"><img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/images/feature/detail.png" style="max-width:200px"  /></a>
+                <a href="http://detailfolk.dk/detailnyheder/ny_app_vil_gre_livet_lettere_for_sm_butikker.html" target="_blank"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/feature/detail.png" style="max-width:200px"  /></a>
             </div>
         </div>
     </div>
@@ -314,7 +317,7 @@
             </div>
             <div class="col-md-7">
                 <div class="text-center describe-images wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-                    <img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/SB/Bapp4DK.png" alt="" />
+                    <img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/Bapp4DK.png" alt="" />
                 </div>
             </div>
         </div><!--end row-->
@@ -412,7 +415,7 @@
             </div>
             <div class="col-md-6 col-md-pull-6">
                 <div class="text-center describe-images wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-                    <img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/images/mobiles.png" alt="">
+                    <img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/mobiles.png" alt="">
                 </div>
 
             </div>
@@ -633,7 +636,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="team-member team-bg wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
-                    <img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/SB/team/CZ.png" class="img-circle" alt="Team Member">
+                    <img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/team/CZ.png" class="img-circle" alt="Team Member">
                     <h2>Christian Zigler</h2>
                     <h5>Founder &amp; CEO</h5>
                     <p>+45 26 170 445</p>
@@ -646,7 +649,7 @@
 
             <div class="col-sm-4">
                 <div class="team-member team-bg wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                    <img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/SB/team/AK.png" class="img-circle" alt="Team Member">
+                    <img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/team/AK.png" class="img-circle" alt="Team Member">
                     <h2>Anders Kjørup</h2>
                     <h5>CCO</h5>
                     <p>+45 30 500 500</p>
@@ -659,7 +662,7 @@
 
             <div class="col-sm-4">
                 <div class="team-member team-bg wow fadeInRight animated" data-wow-offset="120" data-wow-duration="1.5s">
-                    <img src="<?php print path_to_theme();?>/bootstrap_subtheme/studio/SB/team/CE.png" class="img-circle" alt="Team Member">
+                    <img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/team/CE.png" class="img-circle" alt="Team Member">
                     <h2>Christian Elbek Pedersen</h2>
                     <h5>CTO</h5>
                     <p>+45 31 790 661</p>
