@@ -57,7 +57,7 @@
             <!-- for surface use class overlay to surface-overlay-->
             <div class="canvas-overlay">
                 <div class="lang">
-                    <a href="<?php print  base_path();?>"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/en.png" alt=""></a>
+                    <a href="<?php print  base_path().'en';?>"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/en.png" alt=""></a>
                     <a href="<?php print  base_path().'da';?>"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/dk.png" alt=""></a>
                 </div>
                 <div class="container">
