@@ -51,7 +51,7 @@
     <h3 style="font-weight: bold;"><?php print t('Subscribe to try ShopBox');?></h3>
     <h6 style="color: #fff;"><?php print t('(you can also download our free app in the App Store)');?></h6>
     <div class=" home-subscribe center-block">
-        <form id="request" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="/contact" method="POST">
+        <form id="request" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="https://shopbox.com/contact" method="POST">
 
             <!-- for canvas use class overlay to canvas-overlay-->
             <!-- for surface use class overlay to surface-overlay-->
@@ -79,7 +79,7 @@
                                 </div>
                                 <h4 style="color:white;margin-top: 35px;"><?php print t('Subscribe to try ShopBox  when we go Live.');?></h4>
                                 <div class=" home-subscribe center-block" style="margin-top: 15px;">
-                                    <form id="request" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="/contact" method="POST">
+                                    <form id="request" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="https://shopbox.com/contact" method="POST">
 
                                         <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
                                         <h6 class="subscription-success"></h6>
