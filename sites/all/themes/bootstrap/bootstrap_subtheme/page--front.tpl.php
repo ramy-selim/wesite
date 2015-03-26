@@ -72,12 +72,7 @@
 
                                 <!--Header text -->
                                 <h1><?php print t('One <strong>business</strong> one <strong>app</strong>');?></h1>
-                                <div class="row" style="color:white;margin-top:35px">
-                                    <div class="col-lg-12" style="margin-bottom: 10px">
-                                        <h4><?php print t('Save time and earn more &nbsp; &nbsp; - &nbsp; &nbsp; Administration made easy as pie &nbsp; &nbsp; - &nbsp; &nbsp; Works with your ERP');?></h4>
-                                    </div>
-                                </div>
-                                <h4 style="color:white;margin-top: 35px;"><?php print t('Subscribe to try ShopBox  when we go Live.');?></h4>
+                                <h4 style="color:white;margin-top: 35px;" style="color:white;margin-top:35px"><?php print t('Subscribe to try ShopBox  when we go Live.');?></h4>
                                 <div class=" home-subscribe center-block" style="margin-top: 15px;">
                                     <form id="request" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="https://shopbox.com/contact" method="POST">
 
