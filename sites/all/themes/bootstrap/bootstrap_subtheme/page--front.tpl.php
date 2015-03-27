@@ -72,7 +72,7 @@
 
                                 <!--Header text -->
                                 <h1><?php print t('One <strong>business</strong> one <strong>app</strong>');?></h1>
-                                <h4 style="color:white;margin-top: 35px;" style="color:white;margin-top:35px"><?php print t('Subscribe to try ShopBox  when we go Live.');?></h4>
+                                <h4 style="color:white;margin-top: 35px;" style="color:white;margin-top:35px"><?php print t('Subscribe to try Shopbox  when we go Live.');?></h4>
                                 <div class=" home-subscribe center-block" style="margin-top: 15px;">
                                     <form id="request" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="https://shopbox.com/contact" method="POST">
 
@@ -797,6 +797,11 @@
                     <a href="https://twitter.com/shopboxCom" target="_blank"><span class="fa fa-twitter-square"></span></a>
                     <a href="https://www.linkedin.com/company/2481234?trk=tyah" target="_blank"><span class="fa fa-linkedin-square"></span></a>
                     <a href="https://plus.google.com/105062306139704740209/posts" target="_blank"><span class="fa fa-google-plus-square"></span></a>
+
+                    <br/>
+                    <br/>
+                    <a href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics" /></a>
+
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div>
