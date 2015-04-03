@@ -47,7 +47,7 @@
     <!-- <div id="surface"></div>-->
     <canvas id="canvas"></canvas>
     <!--Header text -->
-    <h1><?php print t('One <strong>business</strong> One <strong>app</strong>');?></h1>
+    <h1><?php print t('one <strong>business</strong> one <strong>app</strong>');?></h1>
     <h3 style="font-weight: bold;"><?php print t('Subscribe to try ShopBox');?></h3>
     <h6 style="color: #fff;"><?php print t('(you can also download our free app in the App Store)');?></h6>
     <div class=" home-subscribe center-block">
@@ -71,7 +71,7 @@
                                 </div>
 
                                 <!--Header text -->
-                                <h1><?php print t('One <strong>business</strong> one <strong>app</strong>');?></h1>
+                                <h1><?php print t('one <strong>business</strong> one <strong>app</strong>');?></h1>
                                 <h4 style="color:white;margin-top: 35px;" style="color:white;margin-top:35px"><?php print t('Subscribe to try Shopbox  when we go Live.');?></h4>
                                 <div class=" home-subscribe center-block" style="margin-top: 15px;">
                                     <form id="request" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="https://shopbox.com/contact" method="POST">
@@ -79,7 +79,7 @@
                                         <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
                                         <h6 class="subscription-success"></h6>
                                         <h6 class="subscription-error"></h6>
-                                        <input type="email" name="email" id="subscriber-email" placeholder="Din mailadresse" class="form-control subscribe-input input-lg">
+                                        <input type="email" name="email" id="subscriber-email" placeholder="<?php print t("Your email address");?>" class="form-control subscribe-input input-lg">
                                         <!-- SUBSCRIBE BUTTON -->
                                         <button type="submit" id="subscribe-button" class="btn btn-primary btn-lg" data-loading-text="Sender..."><?php print t('Send');?></button>
 
@@ -145,7 +145,7 @@
                         <div class="text-right">
                             <h4 class="main-color"><?php print t('Economy');?></h4>
                             <p>
-                                <?php print t('Who are your best customers? Make your own customer club. Get customers back into the store.');?>
+                                <?php print t('Obtain an overview of your business’s revenue daily, weekly anytime, anywhere and on any device.');?>
                             </p>
                         </div>
 
@@ -273,7 +273,7 @@
                     <div class="testimonial-item2 wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
                         <div class="testimonial-msg">
                             <i class="fa fa-quote-left"></i>
-                            <?php print t('Shopbox has redefined my view on what a Cash Register could do');?>
+                            <?php print t('Shopbox has redefined my view on what a Cash Register can do');?>
                             <i class="fa fa-quote-right pull-right"></i>
                         </div>
                         <div class="white-separator"></div>
@@ -512,7 +512,7 @@
                             <?php print t('<strong>Hotline 9 – 16</strong> support');?>
                         </li>
                         <li class="plan-action">
-                            <strong style="font-size: 35px;"><?php print t('399 kr.');?></strong>
+                            <strong style="font-size: 35px;"><?php print t('49 €');?></strong>
                         </li>
                     </ul>
                 </div>
@@ -535,7 +535,7 @@
                             <?php print t('<strong>Hotline 24/7</strong> support');?>
                         </li>
                         <li class="plan-action">
-                         <strong style="font-size: 35px;">   <?php print t('999 kr.');?></strong>
+                         <strong style="font-size: 35px;">   <?php print t('129 €');?></strong>
                         </li>
                     </ul>
                 </div>
@@ -623,7 +623,7 @@
         <!-- Team Heading-->
         <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
             <div class="title text-center"><h1><?php print t('Management');?></h1></div>
-            <div class="subtitle text-center "><h5><?php print t('We are good at table tennis.');?></h5></div>
+            <div class="subtitle text-center "><h5><?php print t('We also play table tennis.');?></h5></div>
             <div class="separator text-center"></div>
         </div>
 
@@ -686,7 +686,7 @@
             <div class="container">
                 <div class="row">
                     <div class="heading white-text wow fadeIn animated animated" data-wow-offset="120" data-wow-duration="1.5s" style="visibility: visible; -webkit-animation-duration: 1.5s;">
-                        <div class="title text-center"><h1><?php print t('Subscribe to try ShopBox  when we go Live');?></h1></div>
+                        <div class="title text-center"><h1><?php print t('Subscribe to try Shopbox  when we go Live');?></h1></div>
                         <div class="title text-center"><h1><?php print t('and we will give you shopbox for Free during the first 30 days');?></h1></div>
                         <div class="subtitle text-center "><h5><?php print t('(you can also download our free app in the App Store)');?></h5></div>
                         <div class="separator text-center"></div>
