@@ -1,3 +1,12 @@
+<?php global $language; ?>
+<style>
+    .language{
+        margin: 10px 10px;
+    }
+    .language img{
+        width: 20px;
+    }
+</style>
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
@@ -56,9 +65,13 @@
             <!-- for canvas use class overlay to canvas-overlay-->
             <!-- for surface use class overlay to surface-overlay-->
             <div class="canvas-overlay">
-                <div class="lang">
-                    <a href="<?php print  base_path().'en';?>"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/en.png" alt=""></a>
-                    <a href="<?php print  base_path().'da';?>"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/dk.png" alt=""></a>
+                <div class="dropdown pull-right language">
+                    <button class="btn btn-default dropdown-toggle" style="background: transparent;color:white;" type="button" id="menu1" data-toggle="dropdown"><?php print $language->language; ?>
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                        <li role="presentation"><a href="<?php print  base_path().'en';?>"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/en.png" alt=""> English</a></li>
+                        <li role="presentation"><a href="<?php print  base_path().'da';?>"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/images/dk.png" alt=""> Dansk</a></li>
+                    </ul>
                 </div>
                 <div class="container">
                     <div class="row">
