@@ -128,7 +128,7 @@
                         <div class="icon-container hidden-sm"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/icons/kunder.png" alt="Kunder" class="features-icon" /></div>
 
                         <div class="text-right">
-                            <h4 class="main-color"><?php print t('Costumers');?></h4>
+                            <h4 class="main-color"><?php print t('Customers');?></h4>
                             <p>
                                 <?php print t('Who are your best customers? Make your own customer club. Get customers back into the store.');?>
                             </p>
