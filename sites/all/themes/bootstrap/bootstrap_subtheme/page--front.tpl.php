@@ -51,7 +51,7 @@
 
 
 <!-- if you like to use surface. change class="home" to class="surface"-->
-<section id="home" class="home" >
+<section id="home" class="home" style="background-image: url(<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/header<?php print $language->language; ?>.png);">
 
     <!-- <div id="surface"></div>-->
     <canvas id="canvas"></canvas>
@@ -137,13 +137,15 @@
                 <div class="col-sm-4 features-left wow fadeInLeft animated animated" data-wow-offset="10" data-wow-duration="1.5s" style="visibility: visible;-webkit-animation-duration: 1.5s; -moz-animation-duration: 1.5s; animation-duration: 1.5s;">
                     <!-- FEATURE -->
                     <div class="feature-items">
+
                         <!-- ICON -->
-                        <div class="icon-container hidden-sm"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/icons/kunder.png" alt="Kunder" class="features-icon" /></div>
+                        <div class="icon-container hidden-sm"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/icons/kasse.png" alt="Kasse" class="features-icon" /></div>
+
 
                         <div class="text-right">
-                            <h4 class="main-color"><?php print t('Customers');?></h4>
+                            <h4 class="main-color"><?php print t('Counter');?></h4>
                             <p>
-                                <?php print t('Who are your best customers? Make your own customer club. Get customers back into the store.');?>
+                                <?php print t('Create products, create invoices, view live sales data, redeem gift cards and print receipts.');?>
                             </p>
                         </div>
 
@@ -158,7 +160,7 @@
                         <div class="text-right">
                             <h4 class="main-color"><?php print t('Economy');?></h4>
                             <p>
-                                <?php print t('Obtain an overview of your business’s revenue daily, weekly anytime, anywhere and on any device.');?>
+                                <?php print t('Get an overview of your revenue daily, weekly, monthly anytime and anywhere.');?>
                             </p>
                         </div>
 
@@ -190,7 +192,7 @@
                 <!-- PHONE IMAGE -->
                 <div class="col-sm-4">
                     <div class="wow bounceInUp animated animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/mobile.png" alt="App Feature Image">
+                        <img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/mobile<?php print $language->language; ?>.png" alt="App Feature Image">
                     </div>
                 </div>
 
@@ -199,21 +201,18 @@
 
                     <!-- FEATURE -->
                     <div class="feature-items">
-
                         <!-- ICON -->
-                        <div class="icon-container hidden-sm"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/icons/kasse.png" alt="Kasse" class="features-icon" /></div>
-
+                        <div class="icon-container hidden-sm"><img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/icons/kunder.png" alt="Kunder" class="features-icon" /></div>
 
                         <div class="fetaure-right">
-                            <h4 class="main-color"><?php print t('Counter');?></h4>
+                            <h4 class="main-color"><?php print t('Customers');?></h4>
                             <p>
-                                <?php print t('Create your products,  receive payments or create an invoice, view live sales data, redeem gift cards and print receipts.');?>
+                                <?php print t('Who are your best customers? Make your own customer club. Get customers back into the store.');?>
                             </p>
                         </div>
 
                     </div>
                     <!-- end Single Feature item -->
-
                     <!-- FEATURE -->
                     <div class="feature-items">
                         <!-- ICON -->
@@ -325,7 +324,7 @@
             </div>
             <div class="col-md-7">
                 <div class="text-center describe-images wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-                    <img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/Bapp4DK.png" alt="" />
+                    <img src="<?php print  base_path().path_to_theme();?>/bootstrap_subtheme/studio/SB/comb<?php print $language->language; ?>.png" alt="" />
                 </div>
             </div>
         </div><!--end row-->
@@ -699,8 +698,8 @@
             <div class="container">
                 <div class="row">
                     <div class="heading white-text wow fadeIn animated animated" data-wow-offset="120" data-wow-duration="1.5s" style="visibility: visible; -webkit-animation-duration: 1.5s;">
-                        <div class="title text-center"><h1><?php print t('Subscribe to try Shopbox  when we go Live');?></h1></div>
-                        <div class="title text-center"><h1><?php print t('and we will give you shopbox for Free during the first 30 days');?></h1></div>
+                        <div class="title text-center"><h1><?php print t('Subscribe to try shopbox  when we go live');?></h1></div>
+                        <div class="title text-center"><h1><?php print t('and we will give you shopbox for free during the first 30 days');?></h1></div>
                         <div class="subtitle text-center "><h5><?php print t('(you can also download our free app in the App Store)');?></h5></div>
                         <div class="separator text-center"></div>
                     </div>
