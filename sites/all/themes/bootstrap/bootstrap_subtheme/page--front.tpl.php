@@ -86,7 +86,7 @@
                                 <!--Header text -->
                                 <h1><?php print t('one <strong>business</strong> one <strong>app</strong>');?></h1>
                                 <h4 style="color:white;margin-top: 35px;" style="color:white;margin-top:35px"><?php print t('Subscribe to try Shopbox  when we go Live.');?></h4>
-                                <div class=" home-subscribe center-block" style="margin-top: 15px;">
+                                <div class=" home-subscribe center-block" style="margin-top: 15px;margin-bottom: 60px">
                                     <form id="request" class="subscription-form mailchimp form-inline" role="form" novalidate="true" action="https://shopbox.com/contact" method="POST">
 
                                         <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
@@ -98,6 +98,7 @@
 
                                     </form>
                                 </div>
+                                <a href="#" class="btn btn-large btn-default" data-toggle="modal" data-target="#myModal" style="color: #FFF;background-color: transparent;border-color: #CCC;padding: 20px;width: 230px;font-size: 25px;text-transform: uppercase;border-radius: 6px;border-width: 2px;margin: 0px 13px;"><?php print t('SEE VIDEO ►');?></a>
                                 <!--DOWNLOAD BUTTON -->
                                 <!--<div class="download-button">-->
                                 <!--<a href="#" class="btn btn-default download-btn">Available on <i class="fa fa-apple fa-lg" data-selector="i.fa" style="outline: none; cursor: default;"></i></a>-->
@@ -820,3 +821,31 @@
     </div>
 
 </footer>
+
+<div id="myModal" class="modal fade modal-md" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-src="https://player.vimeo.com/video/124800960?autoplay=true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin-top: -10px">×</button>
+            </div>
+            <div class="modal-body">
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe id="video" class="embed-responsive-item" style="width: 100%" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    jQuery('.modal').on('hidden.bs.modal', function () {
+        jQuery("#video").attr('src','');
+    })
+
+    jQuery('.modal').on('shown.bs.modal', function () {
+        jQuery("#video").attr('src',jQuery(this).attr('data-src'));
+    });
+
+</script>
